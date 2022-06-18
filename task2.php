@@ -31,14 +31,14 @@ class Worker{
 
 
 $worker1 = new Worker();
-$worker1 -> setName ('Іван');
-$worker1 -> setAge = (25);
-$worker1 -> setSalary = (1000);
+$worker1 -> setName ('Діма');
+$worker1 -> setAge = (20);
+$worker1 -> setSalary = (800);
 
 $worker2 = new Worker();
-$worker2 -> setName ('Василь');
+$worker2 -> setName ('Вася');
 $worker2 -> setAge (26);
-$worker2 -> setSalary (2000);
+$worker2 -> setSalary (1500);
 
 echo "Amount of salary:" .($worker1 -> getSalary() + $worker2 -> getSalary())."<br>";
 echo "Amount of age:"  .($worker1 -> getAge() + $worker2 -> getAge())."<br>";
