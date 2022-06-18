@@ -40,9 +40,9 @@ class Worker{
 }
 
 $worker1 = new Worker();
-$worker1 -> setName ('Іван');
+$worker1 -> setName ('Максм');
 $worker1 -> setAge = (25);
-$worker1 -> setSalary = (1000);
+$worker1 -> setSalary = (2000);
 
 echo "Age:".($worker1 -> getAge())."<br>";
 $worker1 -> setAge(102);
